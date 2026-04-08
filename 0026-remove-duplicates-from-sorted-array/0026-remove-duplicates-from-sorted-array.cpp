@@ -26,7 +26,7 @@ public:
             if(nums[i]==nums[j]){
                 i++;
             }
-            else if(nums[i]!=nums[j]){
+            else{
                 
                 nums[j+1] = nums[i];
                 i++;
